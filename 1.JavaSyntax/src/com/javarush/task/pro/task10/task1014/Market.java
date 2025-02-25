@@ -4,6 +4,8 @@ package com.javarush.task.pro.task10.task1014;
 Купи 10 батонов
 */
 
+import java.util.Scanner;
+
 public class Market {
     private static boolean hasEggs = true;
 
@@ -19,4 +21,7 @@ public class Market {
             System.out.println("Купил 1 батон");
         }
     }
+
 }
+
+

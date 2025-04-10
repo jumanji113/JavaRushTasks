@@ -13,7 +13,7 @@ public class Solution {
         ArrayList<String> stringArrayList = new ArrayList<>();
         Stack<String> stack = new Stack<>();
         Map<String, ArrayList<String>> map = new HashMap<>();
-        var exceptionsList = new ArrayList<Exception>();
-        var filesStack = new Stack<File>();
+        Exception exceptionsList = new Exception();
+        Stack filesStack = new Stack<File>();
     }
 }

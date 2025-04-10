@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class UniversityDepartment {
 
     public static void main(String[] args) {
-        var students = new ArrayList<Student>();
+        ArrayList students = new ArrayList<Student>();
         students.add(new Student("Акакий"));
         students.add(new Student("Любослав"));
 

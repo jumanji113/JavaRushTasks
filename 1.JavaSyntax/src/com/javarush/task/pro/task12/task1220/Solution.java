@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Solution {
 
     public static void main(String[] args) {
-        var elements = new ArrayList<>();
+        ArrayList elements = new ArrayList<>();
         elements.add("Привет");
         elements.add(10);
         elements.add(new Integer[15]);

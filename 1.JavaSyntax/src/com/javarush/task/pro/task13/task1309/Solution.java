@@ -21,5 +21,10 @@ public class Solution {
         grades.put("Okko", 3.3);
         grades.put("Ivi", 3.3);
         grades.put("KINO", 3.3);
+
+//        for(String key : grades.keySet()){
+//            Double value = grades.get(key);
+//            System.out.println(key + "--->" + value);
+//        }
     }
 }

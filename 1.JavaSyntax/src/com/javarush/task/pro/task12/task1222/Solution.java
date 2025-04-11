@@ -15,7 +15,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        var arrayList = new ArrayList<>();
+        ArrayList arrayList = new ArrayList<>();
         arrayList.add(15);
         arrayList.add("Hello");
         arrayList.add(154);

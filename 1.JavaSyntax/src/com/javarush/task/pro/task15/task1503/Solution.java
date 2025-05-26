@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 /* 
@@ -13,7 +14,7 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) throws IOException {
         try (Scanner scanner = new Scanner(System.in);
-             BufferedReader bufferedReader = Files.newBufferedReader(Path.of(scanner.nextLine()))){
+             BufferedReader bufferedReader = Files.newBufferedReader(Paths.get((scanner.nextLine())))){
             String fileName = scanner.nextLine();
             String line;
             while ((line = bufferedReader.readLine()) != null) {

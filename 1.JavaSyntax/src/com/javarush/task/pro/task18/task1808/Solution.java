@@ -2,6 +2,7 @@ package com.javarush.task.pro.task18.task1808;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /* 
 Знакомство со ссылками на методы
@@ -9,10 +10,10 @@ import java.util.Collections;
 
 public class Solution {
     public static void main(String[] args) {
-        var strings = new ArrayList<String>();
+        List<String> strings = new ArrayList<String>();
         Collections.addAll(strings, "Hello", "Amigo", "JavaRush", "CodeGym");
 
-        print(strings);
+        print((ArrayList<String>) strings);
     }
 
     public static void print(ArrayList<String> strings) {

@@ -2,6 +2,7 @@ package com.javarush.task.pro.task18.task1809;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /* 
 Прощание со ссылками на методы
@@ -9,10 +10,10 @@ import java.util.Collections;
 
 public class Solution {
     public static void main(String[] args) {
-        var numbers = new ArrayList<Integer>();
+        List<Integer> numbers = new ArrayList<Integer>();
         Collections.addAll(numbers, 12, 34, 54, 32, 1, 453, 1111);
 
-        print(numbers);
+        print((ArrayList<Integer>) numbers);
     }
 
     public static void print(ArrayList<Integer> numbers) {

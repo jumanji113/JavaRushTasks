@@ -2,6 +2,7 @@ package com.javarush.task.pro.task18.task1806;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /* 
 Знакомство с foreach
@@ -9,10 +10,7 @@ import java.util.Collections;
 
 public class Solution {
     public static void main(String[] args) {
-        var numbers = new ArrayList<Integer>();
-        Collections.addAll(numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
-
-        print(numbers);
+        List<String> numbers = new ArrayList<>();
     }
 
     public static void print(ArrayList<Integer> numbers) {

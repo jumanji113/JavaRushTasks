@@ -2,6 +2,7 @@ package com.javarush.task.pro.task18.task1805;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /* 
 Прощание с лямбда-выражением
@@ -10,11 +11,11 @@ import java.util.Collections;
 public class Solution {
 
     public static void main(String[] args) {
-        var strings = new ArrayList<String>();
+        List<String> strings = new ArrayList<String>();
 
         Collections.addAll(strings, "JavaRush", "Amigo", "Java Developer", "CodeGym");
 
-        sortStringsByLength(strings);
+        sortStringsByLength((ArrayList<String>) strings);
 
         for (String string : strings) {
             System.out.println(string);
